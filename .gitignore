@@ -1,0 +1,6 @@
+effectiveCpp/31-minimize-compilation-dependencies-between-files/x64
+effectiveCpp/x64
+effectiveCpp/.vs
+
+*.user
+
