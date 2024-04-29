@@ -4,3 +4,15 @@ effectiveCpp/.vs
 
 *.user
 
+*.tlog
+*.CppCl
+*.log
+*.recipe
+*.ilk
+*.txt
+*.obj
+*.idb
+*.pdb
+
+
+
