@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20-Prefer_pass-by-reference
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04-Make_sure_that_objects_are_initialized_before_they_are_used", "04-Make_sure_that_objects_are_initialized_before_they_are_used\04-Make_sure_that_objects_are_initialized_before_they_are_used.vcxproj", "{76AECEEA-8F59-4CF1-BEFA-EDA28C536C62}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09-Never_call_virtual_functions_during_construction_or_destruction", "09-Never_call_virtual_functions_during_construction_or_destruction\09-Never_call_virtual_functions_during_construction_or_destruction.vcxproj", "{89C6DF22-5065-4805-8959-E33D1F2C4EEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{76AECEEA-8F59-4CF1-BEFA-EDA28C536C62}.Release|x64.Build.0 = Release|x64
 		{76AECEEA-8F59-4CF1-BEFA-EDA28C536C62}.Release|x86.ActiveCfg = Release|Win32
 		{76AECEEA-8F59-4CF1-BEFA-EDA28C536C62}.Release|x86.Build.0 = Release|Win32
+		{89C6DF22-5065-4805-8959-E33D1F2C4EEB}.Debug|x64.ActiveCfg = Debug|x64
+		{89C6DF22-5065-4805-8959-E33D1F2C4EEB}.Debug|x64.Build.0 = Debug|x64
+		{89C6DF22-5065-4805-8959-E33D1F2C4EEB}.Debug|x86.ActiveCfg = Debug|Win32
+		{89C6DF22-5065-4805-8959-E33D1F2C4EEB}.Debug|x86.Build.0 = Debug|Win32
+		{89C6DF22-5065-4805-8959-E33D1F2C4EEB}.Release|x64.ActiveCfg = Release|x64
+		{89C6DF22-5065-4805-8959-E33D1F2C4EEB}.Release|x64.Build.0 = Release|x64
+		{89C6DF22-5065-4805-8959-E33D1F2C4EEB}.Release|x86.ActiveCfg = Release|Win32
+		{89C6DF22-5065-4805-8959-E33D1F2C4EEB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
